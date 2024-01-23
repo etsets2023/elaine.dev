@@ -24,7 +24,8 @@ h1{
     font-weight: 400;
     font-size: 120px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -109,8 +110,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px dotted white;
-       
+    border-bottom: 1px dotted white;      
 }
 
 .apresentacao-container{
@@ -120,8 +120,7 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 30px;   
-    word-wrap: break-word;
-    margin-top: 50px;
+    word-wrap: break-word; 
 }
 
 .apresentacao-nome{
@@ -304,6 +303,12 @@ li:hover{
     display: none;
 }
 
+#js img{
+    width: 105px;
+    margin-right: -25px;
+}
+
+
 #tecnologias h2, #projetos h2, #contatos h2{
     font-family: "Ephesis", cursive;
     font-weight: 400;
@@ -441,6 +446,10 @@ h3{
     padding-bottom: 40px;
 }
 
+#contatos h2{
+    padding-top: 50px;
+}
+
 .contatos-container{
     display: flex;
     flex-direction: column;
@@ -466,6 +475,8 @@ h3{
     width: 65px;
     border-radius: 14px;
 }
+
+
 
 .git{
     /*border: 2px solid black;*/
@@ -780,10 +791,6 @@ h4{
     .redes2{
         justify-content: start;
         margin-left: -40px;
-    }
-
-    #js img{
-        width: 30px;
     }
 
     .container{
