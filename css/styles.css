@@ -483,7 +483,6 @@ h3{
 }
 
 .redes img:hover{
-    box-shadow: 5px 5px 5px white;
     transform: scale(1.2);
     transition: all 0.6s;
 }
