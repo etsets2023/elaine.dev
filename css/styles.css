@@ -447,7 +447,7 @@ h3{
 }
 
 #contatos h2{
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .contatos-container{
@@ -761,9 +761,9 @@ h4{
     }
 
 
-    #contatos{
+    /*#contatos{
         padding: 20px;
-    }
+    }*/
   
     .contatos-container{
         /*border: 1px solid white;*/
