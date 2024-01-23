@@ -447,7 +447,7 @@ h3{
 }
 
 #contatos h2{
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .contatos-container{
@@ -775,11 +775,6 @@ h4{
         margin: auto;  
         gap: 20px;
     }
-
-    #contatos h2{
-        margin-top: 0;
-    }
-
 
     .redes{
         /*border: 1px solid white;*/
