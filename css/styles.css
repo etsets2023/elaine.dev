@@ -28,6 +28,11 @@ h1{
     margin-bottom: 50px;
 }
 
+h5{
+    font-size: 28px;
+    margin-left: -280px;
+}
+
 
 .header{
     background: #6e2165;
@@ -62,15 +67,15 @@ h1{
     border: none;
 }
 
+.nav-list a:hover{
+    border-bottom: 1px solid white;  
+}
+
 .nav-list a{
     font-size: 18px;
     color: white;
-    padding-block: 5px;
-    text-decoration: none;  
-}
-
-.nav-list a:hover{
-    color: #6e2165;
+    padding-block: 16px;
+    text-decoration: none; 
 }
 
 .hero{  
@@ -146,7 +151,7 @@ h1{
 }
 
 #apresentacao button:hover {
-   box-shadow: 2px 2px 10px white;
+   box-shadow: 0px 0px 10px white;
    transition: all 0.6s;
    cursor: pointer;
 }
@@ -293,7 +298,7 @@ li{
     border-radius: 16px 0 16px 0; 
 }
 
-li:hover{
+#tecnologias li:hover{
     background-color:white;
     color: #6e2165;
     transition: all 1s ease;
