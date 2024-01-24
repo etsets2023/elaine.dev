@@ -47,7 +47,8 @@ h5{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background: #6e2165;
+    background: rgb(110, 33, 101, 0.6);
+    backdrop-filter: saturate(180%) blur(20px);
     padding-inline: 200px; 
 }
 
