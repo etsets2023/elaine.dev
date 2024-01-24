@@ -22,7 +22,7 @@ body{
 h1{
     font-family: "Ephesis", cursive;
     font-weight: 400;
-    font-size: 120px;
+    font-size: 140px;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -232,11 +232,11 @@ h5{
     background-position: top;
     padding-bottom: 40px;
     border-bottom: 1px dotted white;
+    padding-top: 60px;
 }
 
 
 #tecnologias h2{
-    margin: 0;
     /*border: 1px solid black;*/
  }
 
