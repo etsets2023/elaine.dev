@@ -649,7 +649,7 @@ footer h6{
     width: 100vw;
     height: 100vh;
     background: #6e2165;
-    clip-path: circle(100px at 90% -15%);/* PORCENTAGEM EIXO X E EIXO Y*/
+    clip-path: circle(100px at 90% -25%);/* PORCENTAGEM EIXO X E EIXO Y*/
     transition: 0.3s ease-out;
     flex-direction: column;
     justify-content: space-around;
