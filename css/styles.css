@@ -766,11 +766,58 @@ textarea{
     body{
         background-color: blue;
     }
+
+    h1{
+        font-size: 100px;
+    }
+
+    .apresentacao-img{
+        width: 90%;
+        margin: auto;
+    }
+
+    .apresentacao-img-2{
+       width: 90%;
+        margin: auto;
+    }
+
+    .apresentacao-btn {
+        width: 50%;
+}
+
+    #tecnologias h2, #projetos h2, #contatos h2{
+        font-size: 120px;
+    }
+
+    .tecnologias-coluna{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .projeto-card{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .contatos-container{
+        width: 90%; 
+        margin: auto;
+      
+    }
     
+    .formulario{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    footer h6{
+        font-size: 18px;
+       
+    }
     
-    
-   
-   
+
+
 }
 
 
