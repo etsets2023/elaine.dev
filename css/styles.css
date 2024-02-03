@@ -733,6 +733,9 @@ h1{
     width: 90%;
 }
 
+#js img{
+    display: none;
+}
 
 .projeto-card{
     width: 80%;
