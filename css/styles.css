@@ -244,7 +244,7 @@ h5{
     width: 100%;     
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     border-bottom: 1px dotted white;          
 }
