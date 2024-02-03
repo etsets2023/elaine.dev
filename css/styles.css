@@ -24,12 +24,7 @@ h1{
     font-weight: 400;
     font-size: 140px;
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 50px;
-}
-
-h5{
-    font-size: 28px;
 }
 
 
@@ -50,10 +45,15 @@ h5{
     background: rgb(110, 33, 101, 0.6);
     backdrop-filter: saturate(180%) blur(20px);
     padding-inline: 200px; 
+    z-index:3;
 }
 
 .logo img{
     width: 60px;
+}
+
+h5{
+    font-size: 28px;
 }
 
 .nav-list{
@@ -104,18 +104,17 @@ h5{
 }
 
 
-
 #apresentacao{
-    /*border: 1px solid red;*/
+    /* border: 1px solid red; */
     width: 100%;
     padding:70px;
     background-color: black;
-    background-size: cover;
-    background-position: top;
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     align-items: center;
-    border-bottom: 1px dotted white;      
+    justify-content: center;
+    border-bottom: 1px dotted white;  
+    padding-top: 100px;    
 }
 
 .apresentacao-container{
@@ -128,42 +127,6 @@ h5{
     word-wrap: break-word; 
 }
 
-.apresentacao-nome{
-    font-weight: bold;
-    font-size: 32px;
-}
-
-.apresentacao-paragrafo{
-    /*border: 1px solid white;*/
-    text-align: justify;
-    line-height: 50px;
-    text-indent: 2em;
-}
-
-#apresentacao button {
-    padding: 20px;
-    background-color: #6e2165;
-    border-radius: 8px;
-    border: none;
-    width: 30%;
-    align-self: center;
-    margin-top: 50px;
-}
-
-#apresentacao button:hover {
-   box-shadow: 0px 0px 10px white;
-   transition: all 0.6s;
-   cursor: pointer;
-}
-
-
-
-#apresentacao button a{
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-}
-
 .digitacao1{
     border-right: 2px solid transparent;
     white-space: nowrap;
@@ -174,8 +137,6 @@ h5{
 
     animation: name duration timing-function delay iteration-count direction fill-mode;  
 }
-
-
 
 
 .typing-animation{
@@ -222,26 +183,90 @@ h5{
     }
 }
 
+.apresentacao-container-2{
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 50px;
+}
 
-#tecnologias{
+.apresentacao-img{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -80px;
+}
+
+.apresentacao-img img{
+    width: 100%;
+    z-index: 1;
+}
+
+.apresentacao-img-2{
+    /* border: 1px solid blue; */
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.apresentacao-btn {
+    padding: 20px;
+    background-color: #6e2165;
+    border-radius: 8px;
+    border: none;
+    width: 40%;
+    margin: 50px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.apresentacao-btn:hover {
+    box-shadow: 0px 0px 10px white;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 26px;
+ }
+ 
+.apresentacao-paragrafo{
     /*border: 1px solid white;*/
-    width: 100%; 
-    padding: 10px; 
-    background-color: black;
-    background-size: cover;
-    background-position: top;
-    padding-bottom: 40px;
-    border-bottom: 1px dotted white;
-    padding-top: 60px;
+    text-align: justify;
+    line-height: 50px;
+    text-indent: 2em;
 }
 
 
-#tecnologias h2{
-    /*border: 1px solid black;*/
- }
 
- .tecnologias-seta{
-    /*border: 1px solid black;*/
+
+#tecnologias{
+    /* border: 1px solid rgb(68, 0, 255); */
+    width: 100%;
+    padding:70px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px dotted white;    
+}
+
+#tecnologias h2, #projetos h2, #contatos h2{
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3{
+    font-size: 50px;
+}
+
+ /*.tecnologias-seta{
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,19 +295,16 @@ h5{
     100%{
         transform: translateY(30%)
     }
- }
+ }*/
 
 .tecnologias-container{
     /*border: 1px solid white;*/
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: start;
-    gap: 100px;   
-    flex-wrap: wrap;
-    margin-top: 50px;
+    flex-flow: row wrap;
 }
 
 ul{
@@ -308,31 +330,19 @@ li{
     display: none;
 }
 
-#js img{
-    width: 105px;
-    margin-right: -25px;
-}
-
-
-#tecnologias h2, #projetos h2, #contatos h2{
-    font-family: "Ephesis", cursive;
-    font-weight: 400;
-    font-size: 150px;
-    text-align: center;
-    margin-top: 100px;
-}
-
 .tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
-    width: 45%;
+    width: 40%;
     background-color: #6e2165;
     padding: 30px;
     color: white;
     border: 20px solid #090e17;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
-.tecnologias-coluna-quatro{
-    /*margin-top: -294px;*/
+#js img{
+    width: 105px;
+    margin-right: -25px;
 }
 
 .tecnologias-container img{
@@ -351,31 +361,26 @@ li{
 }
 
 .coluna-um-icone:hover{
-    border-radius: 0;
-    transition: all 1s;   
-}
-
-h3{
-    font-size: 50px;
+    transform: translate(0, -10px);
+    transition: all 0.3s;  
+    box-shadow: 0px 0px 10px white;
 }
 
 #projetos{
+    /* border: 1px solid red; */
     width: 100%;
-    padding:10px;
+    padding:70px;
     background-color: black;
-    background-size: cover;
-    background-position: top;
-    padding-bottom: 40px;
-    border-bottom: 1px dotted white;
-}
-
-#projetos h2{
-    padding-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px dotted white;   
 }
 
 .projetos-container{
     /*border: 1px solid white;*/
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -393,7 +398,7 @@ h3{
     align-items: center;
     justify-content: center;
     padding: 30px;
-    width: 30%;
+    width: 28%;
     /*height: 350px;*/
     gap: 30px;
     background-image: linear-gradient(0deg, #6e2165, #ffa8f5); 
@@ -442,38 +447,58 @@ h3{
 }
 
 #contatos{
-    /*border: 1px solid black;*/
+    /* border: 1px solid orange; */
     width: 100%;
-    padding:10px;
+    padding:70px;
     background-color: black;
-    background-size: cover;
-    background-position: top;
-    padding-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px dotted white;    
 }
 
 #contatos h2{
     padding-top: 50px;
 }
 
-.contatos-container{
+.container{
+    /* border: 4px solid white; */
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    width: 80%;
-    padding: 0px 100px;
-    gap: 30px;
-    /*border: 1px solid black;*/
-    margin: auto;
-    margin-top: 0px;
+    align-items: center;
+    justify-content: space-around;
+}
 
-    
+.contatos-container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+    gap: 30px;
+    margin: auto;
+    margin-top: 0px;  
 }
 
 .redes{
+    /* border: 1px solid orange; */
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     gap: 40px;
+    padding-left: 40px;
+}
+
+
+.redes2{
+    /* border: 1px solid red; */
+    margin-left: 60px;
+}
+
+.redes2 a{
+    text-decoration: none;
 }
 
 .redes img{
@@ -483,24 +508,18 @@ h3{
 
 
 
-.git{
-    /*border: 2px solid black;*/
-}
-
 .redes img:hover{
     transform: scale(1.2);
     transition: all 0.6s;
 }
 
-.container{
-    /*border: 4px solid black;*/
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-}
-
 .formulario{
-    margin-right: 200px;
+    /* border: 1px solid blue; */
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .label-float input{ /*vai estilizar apenas os inputs filhos da div classe label-float*/
@@ -529,7 +548,7 @@ h3{
 
 .label-float input:focus{
     border-bottom: 2px solid white;
-    transition: all 1s ease-out;
+    transition: all 0.3s ease-out;
 }
     
 .label-float label{
@@ -539,7 +558,7 @@ h3{
     top: 0; 
     left: 0;
     margin-top: 13px;
-    transition: all 1s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .label-float input:focus + label, /* O que acontece com a label quando estou focada no input*/
@@ -609,37 +628,30 @@ h4{
     width: 300px;
 }
 
+footer{
+    display: flex;   
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    background: rgb(110, 33, 101, 0.6);
+    padding: 50px;
+    color: black;
+}
 
+footer h6{
+    font-size: 24px;
+   
+}
 
 
 
 /****************Media Queries*******************/
 
-@media screen and (max-width: 992px) {  /*TABLET*/ /*celular (max-width: 750px) 992 tablet*/
-    body{
-        font-size: 18px;
-    }
-
-    .nav{
-        padding-inline: 50px;
-        
-    }
-
-
-    h1{
-        font-size: 70px;  
-    }
-
+@media screen and (max-width: 1200px) {  /*TABLET*/ /*celular (max-width: 750px) 992 tablet*/
     .hamburger{
         display: block;
-        z-index: 1;
     }
-
-    .setas{
-        display: none;
-     }
-
-
+  
 .nav-list{
     position: fixed;
     top: 0;
@@ -648,7 +660,7 @@ h4{
     height: 100vh;
     background: #6e2165;
     clip-path: circle(100px at 90% -15%);/* PORCENTAGEM EIXO X E EIXO Y*/
-    transition: 1s ease-out;
+    transition: 0.3s ease-out;
  
 
     flex-direction: column;
@@ -709,146 +721,65 @@ h4{
     top: -7px;
 }
 
-    .apresentacao-paragrafo{
-        line-height: 30px;
-    } 
-
-    #apresentacao{
-        padding: 20px;
-    }
-
-    #apresentacao button {
-        padding: 15px;
-        width: 150px; 
-    }
-
-    #apresentacao button a{
-        font-size: 14px;
-    }
-
-    #tecnologias{
-        padding: 20px;
-    }
-
-    .setas{
-        gap: 100px;
-     }
-
-    #tecnologias h2, #projetos h2, #contatos h2{
-        font-size: 80px;
-    }
-
-    .tecnologias-container{  
-        width: 100%;  
-        gap: 10px;
-    }
-
-    .tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
-        width: 80%;
-    }
-
-    h3{
-        font-size: 30px;
-    }
-
-    #projetos{
-        padding: 20px;
-    }
-
-    .projetos-container{
-        width: 100%;
-        flex-direction: column;  
-    }
-    
-    .projeto-card{
-        flex-direction: column;
-        width: 80%;  
-    }
-
-
-    /*#contatos{
-        padding: 20px;
-    }*/
-  
-    .contatos-container{
-        /*border: 1px solid white;*/
-        padding: 40px;   
-        width: 100%; 
-        justify-content: center;
-        align-items: center;
-        margin: auto;  
-        gap: 20px;
-    }
-
-    .redes{
-        /*border: 1px solid white;*/
-        width: 100%;
-        padding: 0;
-        justify-content: center;
-    }
-
-    .redes2{
-        justify-content: start;
-        margin-left: -40px;
-    }
-
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 80px;
-        /*border: 1px solid black;*/
-        margin-top: 50px;  
-        justify-content: center;
-        align-items: center; 
-    }
-
-    .formulario{
-        margin-right: 0;
-    }
-
-    textarea{
-        width: 100%;
-
-    }
-
-    
-    #contatos h3{
-        font-size: 50px;
-    }
-
-    h3{
-        font-size: 18px;
-    }   
-
-    
-
-    .apresentacao-nome{
-        width: 300px;
-    }
-
-
-    @keyframes typing1 {
-        from {
-            width: 0;
-        }
-        to {
-            width: 155px;
-        }
-    }
-    
-    
-    @keyframes typing {
-        from {
-            width: 0;
-        }
-        to {
-            width: 243px;
-        }
-    }
+h1{
+    font-size: 120px;
    
 }
 
- @media screen and (min-width: 993px) {  /*DESKTOP*/
- 
-   
+.apresentacao-container{
+    padding-bottom: 20px;
+}
+
+
+.apresentacao-container{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.apresentacao-container-2{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+
+.apresentacao-img-2{
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+#tecnologias{
+    padding: 20px;
+}
+
+.tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
+    width: 80%;
+}
+
+#projetos{
+    padding:20px;
+}
+
+.projeto-card{
+    width: 80%;
+}
+
+#contatos{
+    padding:20px;
+}
+
+.container{
+    flex-flow: column wrap;
+    gap: 100px;
+}
+form{
+    width: 80%;
+}
+
+textarea{
+    width: 100%;
+}
 }
