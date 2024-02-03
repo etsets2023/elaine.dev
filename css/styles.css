@@ -105,9 +105,8 @@ h5{
 
 
 #apresentacao{
-    /* border: 1px solid red; */
-    width: 100%;
-    padding:70px;
+    border: 1px solid red;
+    width: 100%;  
     background-color: black;
     display: flex;
     flex-flow: row wrap;
@@ -118,7 +117,7 @@ h5{
 }
 
 .apresentacao-container{
-    /*border: 1px solid white;*/
+    /* border: 1px solid white; */
     width: 80%;
     margin: auto;
     display: flex;
@@ -222,6 +221,7 @@ h5{
     text-decoration: none;
     text-align: center;
     font-size: 22px;
+    /* border: 1px solid blue; */
 }
 
 .apresentacao-btn:hover {
@@ -647,7 +647,12 @@ footer h6{
 
 /****************Media Queries*******************/
 
-@media screen and (max-width: 1200px) {  /*TABLET*/ /*celular (max-width: 750px) 992 tablet*/
+@media (max-width: 1189px) {  /*TABLET*/ /*celular (max-width: 750px) 992 tablet*/
+
+    .nav{
+        padding-inline: 40px; 
+    }
+
     .hamburger{
         display: block;
     }
@@ -661,8 +666,6 @@ footer h6{
     background: #6e2165;
     clip-path: circle(100px at 90% -15%);/* PORCENTAGEM EIXO X E EIXO Y*/
     transition: 0.3s ease-out;
- 
-
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -726,13 +729,9 @@ h1{
    
 }
 
-.apresentacao-container{
-    padding-bottom: 20px;
-}
-
 
 .apresentacao-container{
-    width: 100%;
+    width: 90%;
     /* border: 1px solid red; */
 }
 
@@ -748,27 +747,30 @@ h1{
 
 .apresentacao-img-2{
     /* border: 1px solid blue; */
-    width: 100%;
-}
-
-#tecnologias{
-    padding: 20px;
-}
-
-.tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
     width: 80%;
 }
 
-#projetos{
-    padding:20px;
+.apresentacao-img{
+    width: 80%;
+    padding-bottom: 100px;
 }
+
+.apresentacao-img img{
+    width: 60%;
+}
+
+#tecnologias h2, #projetos h2, #contatos h2{
+    font-size: 100px;
+}
+
+
+.tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
+    width: 90%;
+}
+
 
 .projeto-card{
     width: 80%;
-}
-
-#contatos{
-    padding:20px;
 }
 
 .container{
@@ -776,10 +778,54 @@ h1{
     gap: 100px;
 }
 form{
-    width: 80%;
+    width: 100%;
+}
+
+.contatos-container{
+    width: 100%;
 }
 
 textarea{
     width: 100%;
 }
 }
+
+
+
+
+
+
+
+@media (max-width: 616px) {  
+    h1{
+        font-size: 100px;
+        border: 1px solid white; 
+    }
+
+    .apresentacao-container{
+        padding-bottom: 20px;
+    }
+
+    .apresentacao-btn {
+        width: 45%;
+       
+    }
+
+    .apresentacao-img img{
+        width: 80%;
+    }
+
+    .tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
+        width: 100%;
+    }
+
+    .projeto-card{
+        width: 90%;
+    }
+    
+    
+   
+   
+}
+
+
