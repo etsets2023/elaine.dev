@@ -627,7 +627,12 @@ footer h6{
 
 /****************Media Queries*******************/
 
-@media (max-width: 1189px) {  /*TABLET*/ /*celular (max-width: 750px) 992 tablet*/
+/*Para Tablets*/
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    body{
+        background-color: red;
+    }
 
     .nav{
         padding-inline: 40px; 
@@ -733,13 +738,16 @@ h1{
     width: 80%;
 }
 
-
 form{
     width: 100%;
 }
 
 .contatos-container{
-    width: 100%;
+    width: 100%;  
+}
+
+#contatos h2{
+    margin-bottom: 150px;
 }
 
 textarea{
@@ -781,6 +789,29 @@ textarea{
     
    
    
+}
+
+
+/*Para Tablets*/
+@media (max-width: 1024px) and (min-width: 768px) {
+    .app__section-banner-container {
+        width: 48rem;
+    }
+}
+
+/* Para Celulares */
+@media (max-width: 767px) {
+    .app__section-banner-container {
+        width: 32rem;
+    }
+
+    .app__title {
+        font-size: 2.6rem;
+    }
+
+    .app__card-timer {
+        font-size: 6rem;
+    }
 }
 
 
