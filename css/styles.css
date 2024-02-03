@@ -631,7 +631,7 @@ footer h6{
 @media (max-width: 1024px){
 
     body{
-        background-color: red;
+        /* background-color: red; */
     }
 
     .nav{
@@ -777,7 +777,7 @@ textarea{
 /* Para Celulares */
 @media (max-width: 767px) {
     body{
-        background-color: blue;
+        /* background-color: blue; */
     }
 
     h1{
