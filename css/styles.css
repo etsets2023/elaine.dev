@@ -630,9 +630,9 @@ footer h6{
 /*Para Tablets*/
 @media (max-width: 1024px){
 
-    body{
-        /* background-color: red; */
-    }
+    /*body{
+         background-color: red; 
+    }*/
 
     .nav{
         padding-inline: 40px; 
@@ -776,9 +776,9 @@ textarea{
 
 /* Para Celulares */
 @media (max-width: 767px) {
-    body{
-        /* background-color: blue; */
-    }
+    /*body{
+         background-color: blue; 
+    }*/
 
     h1{
         font-size: 80px;
