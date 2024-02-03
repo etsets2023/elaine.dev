@@ -37,9 +37,9 @@ link3.addEventListener("click", () =>{
     nav.classList.toggle("active");
 })
 
-//link4.addEventListener("click", () =>{
-//   nav.classList.toggle("active");
-//})
+link4.addEventListener("click", () =>{
+   nav.classList.toggle("active");
+})
 
 
 
