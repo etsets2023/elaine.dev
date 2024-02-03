@@ -733,9 +733,9 @@ h1{
     width: 90%;
 }
 
-#js img{
+/*#js img{
     display: none;
-}
+}*/
 
 .projeto-card{
     width: 80%;
@@ -785,7 +785,7 @@ textarea{
     }
 
     .apresentacao-btn {
-        width: 50%;
+        width: 60%;
 }
 
     #tecnologias h2, #projetos h2, #contatos h2{
@@ -819,9 +819,22 @@ textarea{
        
     }
     
+    .apresentacao-paragrafo p{
+        font-size: 18px;
+        }
+
+        #tecnologias h3{
+            font-size: 30px;
+        }
+
+        .redes2 p{
+            font-size:18px;
+            text-align: center;
+            margin-right: 80px;
+            }
+    }
 
 
-}
 
 
 
