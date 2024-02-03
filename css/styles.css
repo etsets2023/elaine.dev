@@ -102,28 +102,24 @@ h5{
 
 
 #apresentacao{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;     
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    flex-flow: row wrap;
+    align-items: end;
     justify-content: center;
     border-bottom: 1px dotted white;  
-    padding-top: 100px;    
+    padding-top: 100px;   
+    padding-bottom: 50px;   
 }
-
-.apresentacao-container{
-    border: 1px solid white;
-    width: 80%;
-    display: flex;
-    flex-flow: row wrap;
-    gap: 30px;   
-    padding-bottom: 50px;
-  }
 
   #text{
     /* border: 1px solid blue; */
-    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .digitacao1{
@@ -140,7 +136,6 @@ h5{
     typing1 4s steps(40) 1s normal forwards;
     animation: name duration timing-function delay iteration-count direction fill-mode;  
 }
-
 
 .typing-animation{
     border-right: 2px solid transparent;
@@ -186,19 +181,13 @@ h5{
     }
 }
 
-.apresentacao-container-2{
-    /* border: 1px solid white; */
-    display: flex;
-    gap: 50px;
-}
-
 .apresentacao-img{
     /* border: 1px solid red; */
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -40px;
+    
 }
 
 .apresentacao-img img{
@@ -207,11 +196,12 @@ h5{
 }
 
 .apresentacao-img-2{
-    /* border: 1px solid blue; */
-    width: 50%;
+    /* border: 1px solid orange; */
+    width: 40%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-left: 50px;
 }
 
 .apresentacao-btn {
@@ -235,27 +225,28 @@ h5{
     font-size: 26px;
  }
  
-.apresentacao-paragrafo{
-    /*border: 1px solid white;*/
+/*.apresentacao-paragrafo{
+    border: 1px solid white;
     text-align: justify;
     line-height: 50px;
     text-indent: 2em;
-}
+}*/
 
 
 
 
 #tecnologias{
-    border: 1px solid rgb(68, 0, 255); 
+    /* border: 1px solid rgb(68, 0, 255);  */
     width: 100%;     
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     border-bottom: 1px dotted white;          
 }
 
-#tecnologias h2, #projetos h2, #contatos h2{
+#tecnologias h2{
+    width: 100%;
     font-family: "Ephesis", cursive;
     font-weight: 400;
     font-size: 150px;
@@ -263,7 +254,7 @@ h5{
     margin-top: 100px;
 }
 
-h3{
+#tecnologias h3{
     font-size: 50px;
 }
 
@@ -299,14 +290,9 @@ h3{
     }
  }*/
 
-.tecnologias-container{
-    border: 1px solid white;
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    padding-bottom: 50px;
+
+#tecnologias img{
+    width: 60px;
 }
 
 ul{
@@ -332,7 +318,7 @@ li{
     display: none;
 }
 
-.tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
+.tecnologias-coluna{
     width: 40%;
     background-color: #6e2165;
     padding: 30px;
@@ -340,15 +326,12 @@ li{
     border: 20px solid #090e17;
     border-radius: 8px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 #js img{
     width: 105px;
     margin-right: -25px;
-}
-
-.tecnologias-container img{
-    width: 60px;
 }
 
 .coluna-um-icone{
@@ -369,28 +352,24 @@ li{
 }
 
 #projetos{
-    border: 1px solid red;
+    /* border: 1px solid orange; */
     width: 100%;     
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     border-bottom: 1px dotted white;          
     }
-     
 
+    #projetos h2{
+        width: 100%;
+        font-family: "Ephesis", cursive;
+        font-weight: 400;
+        font-size: 150px;
+        text-align: center;
+        margin-top: 100px;
+    }
 
-.projetos-container{
-    border: 1px solid white;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;   
-    flex-wrap: wrap;
-    padding-bottom: 50px;
-}
 
 .projeto-card{
     box-shadow: 5px 5px 5px #6e2165;
@@ -398,12 +377,14 @@ li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    width: 28%;
+    padding: 26px;
+    width: 25%;
     /*height: 350px;*/
     gap: 30px;
     background-image: linear-gradient(0deg, #6e2165, #ffa8f5); 
     border: none;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 .projeto-card:hover{
@@ -448,26 +429,24 @@ li{
 }
 
 #contatos{
-    border: 1px solid orange;
+    /* border: 1px solid blue; */
     width: 100%;     
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px dotted white;   
+    border-bottom: 1px dotted white; 
+    padding-bottom: 50px;  
 }
+
 
 #contatos h2{
-    padding-top: 50px;
-}
-
-.container{
-    border: 4px solid white;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 50px;
+    width: 100%;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .contatos-container{
@@ -476,10 +455,18 @@ li{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 50%; 
+    width: 40%; 
     gap: 30px;
-    margin: auto;
-    margin-top: 0px;  
+    margin-top: -118px;  
+}
+
+.formulario{
+    /* border: 1px solid blue; */
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .redes{
@@ -513,14 +500,6 @@ li{
     transition: all 0.6s;
 }
 
-.formulario{
-    /* border: 1px solid blue; */
-    width: 50%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
 
 .label-float input{ /*vai estilizar apenas os inputs filhos da div classe label-float*/
     width: 100%;
@@ -731,21 +710,6 @@ h1{
 }
 
 
-.apresentacao-container{
-    width: 90%;
-    /* border: 1px solid red; */
-}
-
-.apresentacao-container-2{
-    /* border: 1px solid white; */
-    display: flex;
-    flex-flow: column-reverse;
-    justify-content: center;
-    align-items: center;  
-}
-
-
-
 .apresentacao-img-2{
     /* border: 1px solid blue; */
     width: 80%;
@@ -760,12 +724,7 @@ h1{
     width: 60%;
 }
 
-#tecnologias h2, #projetos h2, #contatos h2{
-    font-size: 100px;
-}
-
-
-.tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
+.tecnologias-coluna{
     width: 90%;
 }
 
@@ -774,10 +733,7 @@ h1{
     width: 80%;
 }
 
-.container{
-    flex-flow: column wrap;
-    gap: 100px;
-}
+
 form{
     width: 100%;
 }
@@ -803,9 +759,7 @@ textarea{
         border: 1px solid white; 
     }
 
-    .apresentacao-container{
-        padding-bottom: 20px;
-    }
+  
 
     .apresentacao-btn {
         width: 45%;
@@ -816,7 +770,7 @@ textarea{
         width: 80%;
     }
 
-    .tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
+    .tecnologias-coluna{
         width: 100%;
     }
 
