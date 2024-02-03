@@ -103,6 +103,7 @@ h5{
 
 #apresentacao{
     border: 1px solid red;
+    margin: auto;
     width: 100%;     
     display: flex;
     flex-flow: column wrap;
@@ -247,6 +248,7 @@ h5{
 
 #tecnologias{
     border: 1px solid rgb(68, 0, 255); 
+    margin: auto;
     width: 100%;     
     display: flex;
     flex-flow: column wrap;
@@ -370,6 +372,7 @@ li{
 
 #projetos{
     border: 1px solid red;
+    margin: auto;
     width: 100%;     
     display: flex;
     flex-flow: column wrap;
@@ -449,6 +452,7 @@ li{
 
 #contatos{
     border: 1px solid orange;
+    margin: auto;
     width: 100%;     
     display: flex;
     flex-flow: column wrap;
@@ -629,6 +633,7 @@ h4{
 }
 
 footer{
+    width: 100%;
     display: flex;   
     flex-flow: column wrap;
     justify-content: center;
@@ -796,7 +801,7 @@ textarea{
 
 
 
-@media (max-width: 616px) {  
+@media (max-width: 350px) {  
     h1{
         font-size: 100px;
         border: 1px solid white; 
