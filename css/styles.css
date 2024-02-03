@@ -181,6 +181,10 @@ h5{
     }
 }
 
+.apresentacao-paragrafo p {
+    text-align: justify;
+}
+
 .apresentacao-img{
     /* border: 1px solid red; */
     width: 40%;
@@ -620,6 +624,7 @@ footer{
 
 footer h6{
     font-size: 24px;
+    color: white;
    
 }
 
@@ -823,9 +828,11 @@ textarea{
         font-size: 18px;
        
     }
+
     
     .apresentacao-paragrafo p{
         font-size: 18px;
+        text-align: justify;
         }
 
         #tecnologias h3{
