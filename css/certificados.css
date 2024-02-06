@@ -39,7 +39,7 @@ h1{
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: fixed;
     background: rgb(110, 33, 101, 0.6);
@@ -79,297 +79,11 @@ h5{
 }
 
 
-
-.hamburger{
-    display: none;
-    border: none;
-    background: none;
-    border-top: 3px solid #fff;
-    cursor: pointer;
-}
-
-.hamburger::before,
-.hamburger::after{
-    content: " ";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background: #fff;
-    margin-top: 5px;
-    position: relative;
-    transition: 0.3s;
-}
-
-
-#apresentacao{
-    /* border: 1px solid red; */
-    width: 100%;     
-    display: flex;
-    flex-flow: row wrap;
-    align-items: end;
-    justify-content: center;
-    border-bottom: 1px dotted white;  
-    padding-top: 100px;   
-    padding-bottom: 50px;   
-}
-
-  #text{
-    /* border: 1px solid blue; */
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .digitacao1{
-    letter-spacing: 5px;
-  }
-
-.digitacao1{
-    font-size: 30px;
-    border-right: 2px solid transparent;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    animation: blinkCursor .9s steps(40) 6 normal forwards, 
-    typing1 4s steps(40) 1s normal forwards;
-    animation: name duration timing-function delay iteration-count direction fill-mode;  
-}
-
-.typing-animation{
-    border-right: 2px solid transparent;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    animation: blinkCursor .9s steps(40) 5s infinite normal , 
-    typing 4s steps(40) 5s normal forwards;    
-}
-
-
-@keyframes blinkCursor {
-    25% {
-        border-right-color: transparent;
-    }
-
-    50% {
-        border-right-color: rgba(255, 255, 255, 0.75);
-    }
-
-    100% {
-        border-right-color: transparent;
-    }
-  
-}
-
-@keyframes typing1 {
-    from {
-        width: 0;
-    }
-    to {
-        width: 310px;
-    }
-}
-
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 320px;
-    }
-}
-
-.apresentacao-paragrafo p {
-    text-align: justify;
-}
-
-.apresentacao-img{
-    /* border: 1px solid red; */
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.apresentacao-img img{
-    width: 100%;
-    z-index: 1;
-}
-
-.apresentacao-img-2{
-    /* border: 1px solid orange; */
-    width: 40%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-left: 50px;
-}
-
-.apresentacao-img-2-container{
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    /* border: 1px solid white; */
-    gap: 0;
-    width: 100%;
-}
-
-.apresentacao-btn {
-    padding: 10px;
-    background-color: #6e2165;
-    border-radius: 8px;
-    border: none;
-    width: 100%;
-    margin: 10px;
-    margin-top: 0;
-    margin-bottom: 50px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-size: 22px;
-    /* border: 1px solid blue; */
-}
-
-.apresentacao-btn:hover {
-    box-shadow: 0px 0px 10px white;
-    transition: all 0.3s;
-    cursor: pointer;
- }
- 
-/*.apresentacao-paragrafo{
-    border: 1px solid white;
-    text-align: justify;
-    line-height: 50px;
-    text-indent: 2em;
-}*/
-
-
-
-
-#tecnologias{
-    /* border: 1px solid rgb(68, 0, 255);  */
-    width: 100%;     
-    display: flex;
-    flex-flow: row wrap;
-    align-items: start;
-    justify-content: center;
-    border-bottom: 1px dotted white;          
-}
-
-#tecnologias h2{
-    width: 100%;
-    font-family: "Ephesis", cursive;
-    font-weight: 400;
-    font-size: 150px;
-    text-align: center;
-    margin-top: 100px;
-}
-
-#tecnologias h3{
-    font-size: 50px;
-}
-
- /*.tecnologias-seta{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-
- .setas{
-    display: flex;
-    flex-direction: row;
-    gap: 500px;
- }
-
- .seta{
-    width: 80px;
-   
-    animation-name: setaBaixo;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
- }
-
- @keyframes setaBaixo{
-    0%{
-        transform: translateY(0%)
-    }
-
-    100%{
-        transform: translateY(30%)
-    }
- }*/
-
-
-#tecnologias img{
-    width: 60px;
-}
-
-ul{
-    list-style: none;
-}
-
-li{
-    text-decoration: none;
-    border: 1px solid white;
-    padding: 10px;
-    margin-top: 20px;
-    text-align: center;
-    border-radius: 16px 0 16px 0; 
-}
-
-#tecnologias li:hover{
-    background-color:white;
-    color: #6e2165;
-    transition: all 1s ease;
-}
-
-#tecnologias-html, #tecnologias-css, #tecnologias-js, #tecnologias-react{
-    display: none;
-}
-
-.tecnologias-coluna{
-    width: 40%;
-    background-color: #6e2165;
-    padding: 30px;
-    color: white;
-    border: 20px solid #090e17;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-
-#js img{
-    width: 105px;
-    margin-right: -25px;
-}
-
-.coluna-um-icone{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;  
-    border: 1px solid white;
-    border-radius: 20px 20px 20px 20px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.coluna-um-icone:hover{
-    transform: translate(0, -10px);
-    transition: all 0.3s;  
-    box-shadow: 0px 0px 10px white;
-}
-
 #projetos{
     /* border: 1px solid orange; */
     width: 100%;     
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     border-bottom: 1px dotted white;          
@@ -392,7 +106,7 @@ li{
     align-items: center;
     justify-content: center;
     padding: 26px;
-    width: 25%;
+    width: 80%;
     /*height: 350px;*/
     gap: 30px;
     background-image: linear-gradient(0deg, #6e2165, #ffa8f5); 
@@ -418,26 +132,27 @@ li{
     color: black;
 }
 
-.projeto-card button {
+button {
     padding: 20px;
     background-color: #6e2165;
     border-radius: 8px;
     border: none;
+    margin-bottom: 50px;
 }
 
-.projeto-card button:hover {
+button:hover {
     background-color: white;
     transition: all 1s ease;
 }
 
-.projeto-card button a{
+button a{
     text-decoration: none;
     color: white;;
     font-size: 20px;
     padding: 20px;
 }
 
-.projeto-card button a:hover{
+button a:hover{
     text-decoration: none;
     color: #6e2165;
 }
@@ -848,7 +563,6 @@ footer h6{
 
 }
 
-  
 
 
 
