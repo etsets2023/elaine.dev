@@ -183,6 +183,7 @@ h5{
 
 .apresentacao-paragrafo p {
     text-align: justify;
+    line-height: 37px;
 }
 
 .apresentacao-img{
@@ -191,6 +192,7 @@ h5{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     
 }
 
