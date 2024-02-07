@@ -183,7 +183,6 @@ h5{
 
 .apresentacao-paragrafo p {
     text-align: justify;
-    line-height: 37px;
 }
 
 .apresentacao-img{
@@ -193,6 +192,7 @@ h5{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    
     
 }
 
@@ -208,6 +208,8 @@ h5{
     flex-flow: row wrap;
     justify-content: center;
     margin-left: 50px;
+    margin-top: 50px;
+    
 }
 
 .apresentacao-img-2-container{
@@ -233,6 +235,7 @@ h5{
     text-align: center;
     font-size: 22px;
     /* border: 1px solid blue; */
+    margin-bottom: 10px;
 }
 
 .apresentacao-btn:hover {
