@@ -249,6 +249,28 @@ h5{
     text-indent: 2em;
 }*/
 
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show{
+    opacity:1;
+    filter: blur(0);
+    transition: all 2s;
+    transform: translateX(0%);
+}
+
+#apresentacao :nth-child(3){
+    transition-delay:700ms;
+}
+
+#apresentacao :nth-child(4){
+    transition-delay:400ms;
+}
+
 
 
 
