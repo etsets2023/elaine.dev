@@ -706,16 +706,27 @@ footer h6{
 .whats_fixo{
     width: 120px;
     position: fixed;
-    right: 0;
+    right:50px;
     bottom: 75px;
     z-index: 1;
 }
 
 
-/****************Media Queries*******************/
+/**************************************************MEDIA QUERIES*******************************************/
 
-/*Para Tablets*/
-@media (max-width: 1024px){
+@media (max-width: 1259px){
+    .projeto-card h3{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+}
+
+
+
+
+/********************************************************Para Tablets**********************************/
+@media (max-width: 767px){
 
     /*body{
          background-color: red; 
@@ -825,9 +836,24 @@ h1{
 }
 
 .tecnologias-coluna{
-    width: 90%;
-    margin: auto;
+    width: 35%;    
     margin-bottom: 20px;
+    /* height: 180px; */
+    padding-inline: 8px;
+}
+
+#tecnologias h3{
+    font-size: 20px;
+}
+
+.coluna-um-icone{
+    height: 80px;
+    width: 100%;
+}
+
+
+#tecnologias{
+    justify-content: space-around;         
 }
 
 
@@ -842,15 +868,14 @@ h1{
 }*/
 
 .projeto-card{
-    width: 80%;
+    width: 35%;
     margin: auto;
     margin-bottom: 20px;
 }
 
 
-
 form{
-    width: 100%;
+    width: 80%;
 }
 
 .contatos-container{
@@ -858,10 +883,8 @@ form{
     margin: auto; 
 }
 
-
-
 #contatos h2{
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .formulario{
@@ -890,10 +913,6 @@ footer h6{
     text-align: justify;
     }
 
-    #tecnologias h3{
-        font-size: 30px;
-    }
-
     .redes2 p{
         font-size:18px;
         text-align: center;
@@ -912,11 +931,15 @@ footer h6{
 
 
 
-/* Para Celulares */
+/**************************************** PARA CELULARES ************************************/
 @media (max-width: 767px) {
     /*body{
          background-color: blue; 
     }*/
+
+    #contatos h2{
+        margin-bottom: 50px;
+    }
 
 }
 
