@@ -857,7 +857,7 @@ h1{
 
 
 #tecnologias{
-    justify-content: space-around;         
+    justify-content: center;         
 }
 
 
@@ -871,9 +871,13 @@ h1{
     display: none;
 }*/
 
+#projetos{
+    justify-content: center;         
+}
+
 .projeto-card{
     width: 35%;
-    margin: auto;
+  
     margin-bottom: 20px;
 }
 
