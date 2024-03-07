@@ -937,6 +937,14 @@ footer h6{
 
 /**************************************** PARA CELULARES ************************************/
  @media (max-width: 720px) {
+.apresentacao-img{
+    width: 80%;
+}
+
+.apresentacao-img-2{
+    width: 80%;
+}
+
 .tecnologias-coluna{
     width: 80%;    
  
