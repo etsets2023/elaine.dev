@@ -18,6 +18,7 @@ body{
     color: #ffa8f5;
     background-color: black;
     overflow-x: hidden;
+    width: fit-content;
 }
 
 
@@ -894,7 +895,7 @@ form{
 
 .contatos-container{
     width: 90%; 
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
   justify-content: center;
   align-items: center;
 }
