@@ -894,7 +894,24 @@ form{
 
 .contatos-container{
     width: 90%; 
-    margin: auto; 
+  border: 1px solid rebeccapurple;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 300px;
+   
+}
+
+.redes2{
+    /* border: 1px solid white; */
+    margin: auto;
+    width: 300px;
+
+ 
 }
 
 #contatos h2{
