@@ -811,15 +811,19 @@ h1{
     font-size: 80px;
 }
 
+#text{
+    margin-bottom: 50px;
+}
+
 
 .apresentacao-img-2{
     /* border: 1px s blue; */
-    width: 90%;
+    width: 40%;
     margin: auto;
 }
 
 .apresentacao-img{
-    width: 90%;
+    width: 40%;
     padding-bottom: 50px;
     margin: auto;
 }
