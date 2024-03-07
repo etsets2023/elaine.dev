@@ -18,7 +18,7 @@ body{
     color: #ffa8f5;
     background-color: black;
     overflow-x: hidden;
-    width: fit-content;
+    
 }
 
 
@@ -1002,10 +1002,9 @@ footer h6{
 
 .whats_fixo{
    right:0px;
+   bottom: 0px;
 }
 
-
- }
 
 
 
@@ -1013,7 +1012,7 @@ footer h6{
 
 
    
-
+ }
 
 
 
