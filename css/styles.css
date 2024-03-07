@@ -883,7 +883,6 @@ h1{
 
 .projeto-card{
     width: 35%;
-  
     margin-bottom: 20px;
 }
 
@@ -949,26 +948,28 @@ footer h6{
 /**************************************** PARA CELULARES/ CELULAR NA VERTICAL ************************************/
  @media (max-width: 720px) {
 .apresentacao-img{
-    width: 80%;
+    width: 90%;
 }
 
 .apresentacao-img-2{
-    width: 80%;
+    width: 90%;
 }
 
 .tecnologias-coluna{
-    width: 80%;    
+    width: 90%;    
  
 }
 
 .projeto-card{
-    width: 80%;
+    width: 90%;
 
 }
 
 .whats_fixo{
    right:0px;
 }
+
+
  }
 
 
