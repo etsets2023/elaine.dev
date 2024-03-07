@@ -949,6 +949,11 @@ footer h6{
 
 /**************************************** PARA CELULARES/ CELULAR NA VERTICAL ************************************/
  @media (max-width: 720px) {
+
+ #apresentacao{
+    justify-content: center;
+    align-items: center;
+ }   
 .apresentacao-img{
     width: 90%;
 }
@@ -957,10 +962,21 @@ footer h6{
     width: 90%;
 }
 
+
+#tecnologias{
+    justify-content: center;
+    align-items: center;
+ } 
+
 .tecnologias-coluna{
     width: 90%;    
  
 }
+
+#projetos{
+    justify-content: center;
+    align-items: center;
+ } 
 
 .projeto-card{
     width: 90%;
