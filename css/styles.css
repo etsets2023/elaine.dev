@@ -725,8 +725,8 @@ footer h6{
 
 
 
-/********************************************************Para Tablets**********************************/
-@media (max-width: 830px){
+/********************************************************Para Tablets/CELULAR NA HPRIZONTAL**********************************/
+@media (max-width: 830px){  
 
     /*body{
          background-color: red; 
@@ -946,7 +946,7 @@ footer h6{
 
 
 
-/**************************************** PARA CELULARES ************************************/
+/**************************************** PARA CELULARES/ CELULAR NA VERTICAL ************************************/
  @media (max-width: 720px) {
 .apresentacao-img{
     width: 80%;
@@ -964,6 +964,14 @@ footer h6{
 .projeto-card{
     width: 80%;
 
+}
+
+.whats_fixo{
+    width: 120px;
+    position: fixed;
+    right:0px;
+    bottom: 25px;
+    z-index: 1;
 }
  }
 
