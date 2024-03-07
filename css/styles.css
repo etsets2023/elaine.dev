@@ -969,8 +969,12 @@ footer h6{
  #apresentacao{
     justify-content: center;
     align-items: center;
-    padding-right: 50px;
+   
  }   
+
+ .apresentacao-img-2{
+    padding-right: 50px;
+ }
 .apresentacao-img{
     width: 90%;
 }
