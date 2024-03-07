@@ -726,7 +726,7 @@ footer h6{
 
 
 /********************************************************Para Tablets**********************************/
-@media (max-width: 767px){
+@media (max-width: 830px){
 
     /*body{
          background-color: red; 
@@ -932,16 +932,16 @@ footer h6{
 
 
 /**************************************** PARA CELULARES ************************************/
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     /*body{
          background-color: blue; 
     }*/
 
-    #contatos h2{
+    /* #contatos h2{
         margin-bottom: 50px;
     }
 
-}
+} */ 
 
   
 
