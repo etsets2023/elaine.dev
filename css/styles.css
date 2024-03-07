@@ -932,18 +932,17 @@ footer h6{
 
 
 /**************************************** PARA CELULARES ************************************/
-/* @media (max-width: 767px) {
-    /*body{
-         background-color: blue; 
-    }*/
+ @media (max-width: 720px) {
+.tecnologias-coluna{
+    width: 70%;    
+ 
+}
 
-    /* #contatos h2{
-        margin-bottom: 50px;
-    }
+.projeto-card{
+    width: 70%;
 
-} */ 
-
-  
+}
+ }
 
 
 
