@@ -834,6 +834,12 @@ h1{
 }
 
 
+.apresentacao-paragrafo p{
+    font-size: 18px;
+    text-align: justify;
+    }
+
+
 .apresentacao-btn { 
     font-size: 18px; 
     width: 60%;
@@ -892,12 +898,11 @@ form{
 }
 
 #contatos h2{
-    margin-bottom: 150px;
+    margin-bottom: 60px;
 }
 
 .formulario{
     width: 80%;
-    margin: auto;
     margin-top: 50px;
 }
 
@@ -915,16 +920,18 @@ footer h6{
    
 }
 
-
-.apresentacao-paragrafo p{
-    font-size: 18px;
-    text-align: justify;
-    }
-
     .redes2 p{
         font-size:18px;
         text-align: center;
         margin-right: 80px;
+        }
+
+        .whats_fixo{
+            width: 120px;
+            position: fixed;
+            right:50px;
+            bottom: 25px;
+            z-index: 1;
         }
 }
 
