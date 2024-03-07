@@ -819,13 +819,13 @@ h1{
 .apresentacao-img-2{
     /* border: 1px s blue; */
     width: 40%;
-    margin: auto;
+  
 }
 
 .apresentacao-img{
     width: 40%;
     padding-bottom: 50px;
-    margin: auto;
+  
 }
 
 .apresentacao-img img{
@@ -967,11 +967,7 @@ footer h6{
 }
 
 .whats_fixo{
-    width: 120px;
-    position: fixed;
-    right:0px;
-    bottom: 25px;
-    z-index: 1;
+   right:0px;
 }
  }
 
